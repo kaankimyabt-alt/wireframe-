@@ -1,0 +1,176 @@
+export const es = {
+  // General
+  'app.name': 'WireGen',
+  'app.copyright': '© 2024 WireGen AI',
+
+  // Nav Links
+  'nav.home': 'Inicio',
+  'nav.wireframe': 'Wireframe',
+  'nav.library': 'Componentes',
+  'nav.suggestions': 'Sugerencias',
+  'nav.guide': 'Guía',
+  'nav.stats': 'Estadísticas',
+  'nav.inspiration': 'Inspiración',
+  'nav.gemini_extension': 'Extensión Gemini',
+  'nav.settings': 'Ajustes',
+
+  // Home Page
+  'home.title1': 'Convierte Tus Ideas en',
+  'home.title2': 'Prototipos de UI, al Instante.',
+  'home.description': 'Describe tu pantalla y deja que la IA genere un wireframe de baja fidelidad. Perfecto para prototipado rápido y visualización de conceptos.',
+  'home.prompt_placeholder': 'p. ej., Un panel de control de una aplicación móvil con un gráfico y un feed de actividad reciente',
+  'home.generate_button': 'Generar',
+  'home.suggestions_title': 'O prueba una de estas',
+  'suggestion.login': 'Una pantalla de inicio de sesión para una aplicación de música móvil',
+  'suggestion.product': 'Una página de detalles de producto para un sitio web de comercio electrónico',
+  'suggestion.dashboard': 'Un panel de perfil de usuario con una barra lateral',
+  'suggestion.weather': 'Una pantalla principal de una aplicación meteorológica simple',
+
+  // Wireframe Page
+  'wireframe.title': 'Wireframe Generado',
+  'wireframe.result_for': 'Resultado para',
+  'wireframe.last_prompt': 'tu último prompt',
+  'wireframe.loading': 'Generando tu obra maestra...',
+  'wireframe.placeholder': 'Tu wireframe generado aparecerá aquí.',
+  'wireframe.suggestions.title': 'Sugerencias alternativas',
+  'wireframe.suggestions.nav': 'Prueba una versión con una barra de navegación inferior.',
+  'wireframe.suggestions.search': 'Añade una barra de búsqueda en el encabezado.',
+  'wireframe.suggestions.columns': 'Reorganiza en un diseño de dos columnas.',
+  'wireframe.suggestions.theme': 'Genera con un tema de color diferente.',
+  
+  // Error Messages
+  'error.parsing': 'La IA devolvió datos en un formato inesperado. Intenta reformular tu petición o vuelve a intentarlo.',
+  'error.api.generic': 'No se pudo conectar con el servicio de IA. Comprueba tu conexión e inténtalo de nuevo.',
+  'error.api.unknown': 'Ocurrió un error desconocido. Por favor, inténtalo de nuevo más tarde.',
+  'error.api.no_image': 'La IA no devolvió una imagen. Por favor, intente con una indicación diferente.',
+  'error.no_image_uploaded': 'Por favor, sube una imagen primero.',
+
+  // Library Page
+  'library.title': 'Biblioteca de Componentes',
+  'library.description': 'Una colección de elementos de interfaz de usuario estándar que puedes solicitar en tus prompts.',
+
+  // Suggestions Page
+  'suggestions.title': 'Sugerencias e Ideas',
+  'suggestions.based_on': 'Basado en tu prompt',
+  'suggestions.ideas_title': 'Ideas Adicionales',
+  'suggestions.idea.gamify.title': 'Gamificar la experiencia',
+  'suggestions.idea.gamify.description': 'Añade un sistema de puntos o insignias por completar tareas para aumentar la participación del usuario.',
+  'suggestions.idea.social.title': 'Compartir en Redes Sociales',
+  'suggestions.idea.social.description': 'Permite a los usuarios compartir su progreso o resultados en las plataformas de redes sociales.',
+  'suggestions.idea.analytics.title': 'Análisis Personalizados',
+  'suggestions.idea.analytics.description': 'Proporciona a los usuarios un panel para seguir su uso personal y su progreso a lo largo del tiempo.',
+  'suggestions.idea.customize.title': 'Añadir Personalización',
+  'suggestions.idea.customize.description': 'Permite a los usuarios cambiar el tema, el diseño o los componentes para adaptarlos mejor a sus necesidades.',
+  'suggestions.examples_title': 'Ejemplos de Aplicaciones Similares',
+
+  // Example Detail Page
+  'example.back_button': 'Volver a Sugerencias',
+  'example.key_features': 'Características Clave',
+
+  'examples.figma.name': 'Figma',
+  'examples.figma.description': 'Una herramienta colaborativa de diseño de interfaces que permite a los equipos diseñar, crear prototipos y recopilar comentarios en un solo lugar. Es basada en la web, lo que la hace accesible desde cualquier plataforma.',
+  'examples.figma.feature1': 'Colaboración en tiempo real',
+  'examples.figma.feature2': 'Herramientas de diseño y edición de vectores',
+  'examples.figma.feature3': 'Prototipado interactivo',
+  'examples.figma.feature4': 'Bibliotecas de componentes para reutilización',
+
+  'examples.balsamiq.name': 'Balsamiq',
+  'examples.balsamiq.description': 'Una herramienta rápida de wireframing de baja fidelidad que reproduce la experiencia de dibujar en una pizarra, pero usando una computadora. Se centra en la velocidad y en plasmar ideas rápidamente.',
+  'examples.balsamiq.feature1': 'Estilo de baja fidelidad, similar a un boceto',
+  'examples.balsamiq.feature2': 'Interfaz de arrastrar y soltar',
+  'examples.balsamiq.feature3': 'Gran biblioteca de controles de UI predefinidos',
+  'examples.balsamiq.feature4': 'Énfasis en la estructura sobre la estética',
+  
+  'examples.sketch.name': 'Sketch',
+  'examples.sketch.description': 'Un editor de gráficos vectoriales para macOS, utilizado principalmente para el diseño de interfaz de usuario y experiencia de usuario de sitios web y aplicaciones móviles. Es conocido por su simplicidad y potentes funciones.',
+  'examples.sketch.feature1': 'Potente editor de vectores',
+  'examples.sketch.feature2': 'Símbolos para componentes reutilizables',
+  'examples.sketch.feature3': 'Amplio ecosistema de plugins',
+  'examples.sketch.feature4': 'Precisión a nivel de píxel',
+
+  'examples.invision.name': 'InVision',
+  'examples.invision.description': 'Una plataforma integral de diseño de productos digitales que ayuda a las empresas a crear, probar y colaborar en prototipos. Conecta todo el flujo de trabajo de diseño de productos.',
+  'examples.invision.feature1': 'Prototipado de alta fidelidad',
+  'examples.invision.feature2': 'Herramientas de colaboración y retroalimentación',
+  'examples.invision.feature3': 'Entrega de diseños a desarrolladores',
+  'examples.invision.feature4': 'Pizarra digital',
+
+  // Gemini Extension Page
+  'gemini_extension.title': 'Estudio de Imágenes Gemini',
+  'gemini_extension.description': 'Libera el poder de Gemini. Sube una imagen y describe las ediciones que quieres hacer.',
+  'gemini_extension.upload_area.title': 'Sube tu Imagen',
+  'gemini_extension.upload_area.cta': 'Haz clic para subir o arrastra y suelta',
+  'gemini_extension.prompt_placeholder': 'p. ej., Añade un gorro de cumpleaños al gato',
+  'gemini_extension.generate_button': 'Editar Imagen',
+  'gemini_extension.loading': 'Gemini está haciendo su magia...',
+  'gemini_extension.results.original': 'Original',
+  'gemini_extension.results.edited': 'Editado por Gemini',
+
+  // Settings Page
+  'settings.title': 'Ajustes',
+  'settings.theme.title': 'Tema',
+  'settings.theme.description': 'Elige una paleta de colores que se adapte a tu estilo.',
+  'settings.language.title': 'Idioma',
+  'settings.language.description': 'Selecciona tu idioma preferido para la interfaz de la aplicación.',
+  'settings.accessibility.title': 'Accesibilidad',
+  'settings.accessibility.description': 'Ajusta la configuración para mejorar tu experiencia.',
+  'settings.accessibility.motion': 'Reducir Movimiento',
+  'settings.accessibility.contrast_mode': 'Modo de Alto Contraste',
+
+  // Guide Page
+  'guide.description': 'Tutoriales paso a paso, consejos de expertos y recursos para elevar tus habilidades de diseño.',
+  'guide.watch_talk': 'Ver la charla',
+  
+  'guide.getting_started.title': 'Primeros Pasos',
+  'guide.getting_started.p1': '¡Bienvenido a WireGen! Esta guía te guiará a través de los conceptos básicos para crear tu primer wireframe.',
+  'guide.getting_started.h1': 'Paso 1: El Cuadro de Petición',
+  'guide.getting_started.p2': 'El corazón de WireGen es el cuadro de petición en la página de Inicio. Aquí es donde describes la interfaz de usuario que quieres crear. Sé descriptivo pero conciso. Piensa en los elementos clave que quieres en la pantalla.',
+  'guide.getting_started.h2': 'Paso 2: Describe tu Interfaz de Usuario',
+  'guide.getting_started.p3': 'Comienza con una declaración clara. Por ejemplo, en lugar de "haz una página", prueba "Crea una pantalla de inicio de sesión con un campo de correo electrónico, un campo de contraseña y un botón de inicio de sesión".',
+  'guide.getting_started.h3': 'Paso 3: Genera e Itera',
+  'guide.getting_started.p4': "Haz clic en el botón 'Generar'. La IA interpretará tu petición y creará un wireframe básico. ¡No te preocupes si no es perfecto al primer intento! Puedes refinar tu petición y generar de nuevo, o usar el wireframe como punto de partida para tu propio proceso de diseño.",
+
+  'guide.prompt_crafting.title': 'Elaboración de Peticiones',
+  'guide.prompt_crafting.p1': 'La calidad de tu wireframe depende en gran medida de la calidad de tu petición. Aquí tienes algunos consejos para escribir peticiones efectivas:',
+  'guide.prompt_crafting.l1_b': 'Sé Específico con los Componentes: ',
+  'guide.prompt_crafting.l1_t': 'Nombra los elementos de la interfaz de usuario que deseas, como "barra de navegación", "entrada de búsqueda", "avatar de usuario" o "tarjeta de producto".',
+  'guide.prompt_crafting.l2_b': 'Menciona el Diseño: ',
+  'guide.prompt_crafting.l2_t': 'Puedes guiar el diseño diciendo cosas como "una barra lateral a la izquierda", "un encabezado en la parte superior" o "una cuadrícula de imágenes".',
+  'guide.prompt_crafting.l3_b': 'Piensa en Jerarquía: ',
+  'guide.prompt_crafting.l3_t': 'Describe primero los elementos más importantes. ¿Qué debería ver el usuario de inmediato?',
+  'guide.prompt_crafting.l4_b': 'Ejemplo de una buena petición: ',
+  'guide.prompt_crafting.l4_t': '"Un panel de control de una aplicación móvil para un rastreador de actividad física. Necesita una tarjeta grande en la parte superior que muestre los pasos diarios, dos tarjetas más pequeñas debajo para la frecuencia cardíaca y las calorías quemadas, y una barra de navegación inferior con iconos para inicio, estadísticas y perfil."',
+
+  'guide.design_principles.title': 'Principios de Diseño',
+  'guide.design_principles.p1': 'Incluso en los wireframes de baja fidelidad, los buenos principios de diseño son importantes. Ten esto en cuenta:',
+  'guide.design_principles.h1': '1. Jerarquía Visual',
+  'guide.design_principles.p2': 'Los elementos más importantes deben ser más prominentes. Puedes lograr esto a través del tamaño, la ubicación (por ejemplo, en la parte superior de la página) o dándole más espacio.',
+  'guide.design_principles.h2': '2. Alineación',
+  'guide.design_principles.p3': 'Los elementos no deben colocarse al azar. Alinéalos a una cuadrícula. Esto crea una sensación de orden y facilita el escaneo de la interfaz.',
+  'guide.design_principles.h3': '3. Proximidad',
+  'guide.design_principles.p4': 'Agrupa los elementos relacionados. Por ejemplo, una etiqueta debe estar cerca de su campo de entrada. Esto ayuda a los usuarios a comprender la relación entre los elementos.',
+  'guide.design_principles.h4': '4. Espacio en Blanco',
+  'guide.design_principles.p5': 'No amontones todo. Dejar espacio vacío alrededor de los elementos (espacio en blanco) reduce el desorden y mejora la legibilidad.',
+
+  'guide.inspirational_talks.title': 'Charlas Inspiradoras',
+  'guide.inspirational_talks.p1': 'Inspírate con estos líderes de la industria que comparten sus conocimientos sobre diseño, creatividad y experiencia de usuario.',
+  'guide.inspirational_talks.t1_desc': 'El renombrado autor de "El Diseño de los Objetos Cotidianos" explica los tres niveles de diseño emocional que hacen que los productos sean agradables.',
+  'guide.inspirational_talks.t2_desc': 'El cofundador de Airbnb comparte cómo se utilizó el diseño para generar confianza entre extraños y crear una comunidad global.',
+
+  'guide.books_and_trends.title': 'Libros y Tendencias',
+  'guide.books_and_trends.h1': 'Lectura Esencial',
+  'guide.books_and_trends.book1.title': 'The Design of Everyday Things',
+  'guide.books_and_trends.book1.author': 'Don Norman',
+  'guide.books_and_trends.book2.title': "Don't Make Me Think",
+  'guide.books_and_trends.book2.author': 'Steve Krug',
+  'guide.books_and_trends.book3.title': 'Hooked: How to Build Habit-Forming Products',
+  'guide.books_and_trends.book3.author': 'Nir Eyal',
+  'guide.books_and_trends.book4.title': 'About Face: The Essentials of Interaction Design',
+  'guide.books_and_trends.book4.author': 'Alan Cooper',
+  'guide.books_and_trends.h2': 'Lo Próximo en UI/UX',
+  'guide.books_and_trends.p1': 'El campo de UI/UX está en constante evolución. Presta atención a tendencias como las herramientas de diseño impulsadas por IA (¡como esta!), el auge de las interfaces de voz (VUI) y la realidad aumentada (AR), y la creciente importancia de prácticas de diseño inclusivas, accesibles y éticas que priorizan el bienestar del usuario.',
+
+  'guide.accessible_design.title': 'Diseño Accesible',
+  'guide.accessible_design.p1': 'La accesibilidad significa diseñar productos para que las personas con discapacidades puedan usarlos. Esto es crucial para crear tecnología inclusiva y ética.',
+  'guide.accessible_design.p2': 'Un principio clave es garantizar un contraste de color suficiente, lo que hace que el texto sea legible para personas con baja visión. Nuestro tema de Alto Contraste es un gran ejemplo de este principio en acción.'
+};

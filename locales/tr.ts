@@ -1,0 +1,176 @@
+export const tr = {
+  // General
+  'app.name': 'WireGen',
+  'app.copyright': '© 2024 WireGen AI',
+
+  // Nav Links
+  'nav.home': 'Ana Sayfa',
+  'nav.wireframe': 'Prototip',
+  'nav.library': 'Bileşenler',
+  'nav.suggestions': 'Öneriler',
+  'nav.guide': 'Rehber',
+  'nav.stats': 'İstatistikler',
+  'nav.inspiration': 'İlham',
+  'nav.gemini_extension': 'Gemini Eklentisi',
+  'nav.settings': 'Ayarlar',
+
+  // Home Page
+  'home.title1': 'Fikirlerinizi Anında',
+  'home.title2': 'Arayüz Prototipine Dönüştürün.',
+  'home.description': 'Ekranınızı tanımlayın ve yapay zekanın düşük kaliteli bir prototip oluşturmasına izin verin. Hızlı prototipleme ve konseptleri görselleştirme için mükemmeldir.',
+  'home.prompt_placeholder': 'örneğin, bir grafik ve son aktivite akışı içeren bir mobil uygulama panosu',
+  'home.generate_button': 'Oluştur',
+  'home.suggestions_title': 'Veya bunlardan birini deneyin',
+  'suggestion.login': 'Bir mobil müzik uygulaması için giriş ekranı',
+  'suggestion.product': 'Bir e-ticaret web sitesi için ürün detayları sayfası',
+  'suggestion.dashboard': 'Kenar çubuğu olan bir kullanıcı profili panosu',
+  'suggestion.weather': 'Basit bir hava durumu uygulaması ana ekranı',
+
+  // Wireframe Page
+  'wireframe.title': 'Oluşturulan Prototip',
+  'wireframe.result_for': 'Sonuç',
+  'wireframe.last_prompt': 'son isteminiz',
+  'wireframe.loading': 'Başyapıtınız oluşturuluyor...',
+  'wireframe.placeholder': 'Oluşturulan prototipiniz burada görünecektir.',
+  'wireframe.suggestions.title': 'Alternatif Öneriler',
+  'wireframe.suggestions.nav': 'Alt gezinme çubuğu olan bir sürüm deneyin.',
+  'wireframe.suggestions.search': 'Başlığa bir arama çubuğu ekleyin.',
+  'wireframe.suggestions.columns': 'İki sütunlu bir düzende yeniden düzenleyin.',
+  'wireframe.suggestions.theme': 'Farklı bir renk temasıyla oluşturun.',
+
+  // Error Messages
+  'error.parsing': 'Yapay zeka beklenmedik bir formatta veri döndürdü. Lütfen isteminizi yeniden ifade etmeyi veya tekrar denemeyi deneyin.',
+  'error.api.generic': 'Yapay zeka servisine bağlanılamadı. Lütfen bağlantınızı kontrol edin ve tekrar deneyin.',
+  'error.api.unknown': 'Bilinmeyen bir hata oluştu. Lütfen daha sonra tekrar deneyin.',
+  'error.api.no_image': 'Yapay zeka bir görüntü döndürmedi. Lütfen farklı bir komut deneyin.',
+  'error.no_image_uploaded': 'Lütfen önce bir görüntü yükleyin.',
+
+  // Library Page
+  'library.title': 'Bileşen Kütüphanesi',
+  'library.description': 'İstemlerinizde talep edebileceğiniz standart arayüz öğeleri koleksiyonu.',
+
+  // Suggestions Page
+  'suggestions.title': 'Öneriler ve Fikirler',
+  'suggestions.based_on': 'İsteminize göre',
+  'suggestions.ideas_title': 'Ek Fikirler',
+  'suggestions.idea.gamify.title': 'Deneyimi oyunlaştırın',
+  'suggestions.idea.gamify.description': 'Kullanıcı etkileşimini artırmak için görevleri tamamlamak için bir puan sistemi veya rozetler ekleyin.',
+  'suggestions.idea.social.title': 'Sosyal Paylaşım',
+  'suggestions.idea.social.description': 'Kullanıcıların ilerlemelerini veya sonuçlarını sosyal medya platformlarında paylaşmalarına izin verin.',
+  'suggestions.idea.analytics.title': 'Kişiselleştirilmiş Analitik',
+  'suggestions.idea.analytics.description': 'Kullanıcılara zaman içindeki kişisel kullanımlarını ve ilerlemelerini takip etmeleri için bir pano sağlayın.',
+  'suggestions.idea.customize.title': 'Özelleştirme Ekle',
+  'suggestions.idea.customize.description': 'Kullanıcıların temayı, düzeni veya bileşenleri ihtiyaçlarına daha iyi uyacak şekilde değiştirmelerine izin verin.',
+  'suggestions.examples_title': 'Benzer Uygulama Örnekleri',
+
+  // Example Detail Page
+  'example.back_button': "Önerilere Geri Dön",
+  'example.key_features': 'Temel Özellikler',
+  
+  'examples.figma.name': 'Figma',
+  'examples.figma.description': 'Ekiplerin tek bir yerden tasarım yapmasına, prototip oluşturmasına ve geri bildirim toplamasına olanak tanıyan işbirlikçi bir arayüz tasarım aracıdır. Web tabanlı olması, her platformdan erişilebilir olmasını sağlar.',
+  'examples.figma.feature1': 'Gerçek zamanlı işbirliği',
+  'examples.figma.feature2': 'Vektör düzenleme ve tasarım araçları',
+  'examples.figma.feature3': 'Etkileşimli prototipleme',
+  'examples.figma.feature4': 'Yeniden kullanım için bileşen kütüphaneleri',
+
+  'examples.balsamiq.name': 'Balsamiq',
+  'examples.balsamiq.description': 'Beyaz tahtada çizim yapma deneyimini bir bilgisayar kullanarak yeniden üreten hızlı, düşük kaliteli bir tel kafes oluşturma aracıdır. Hıza ve fikirleri hızla ortaya koymaya odaklanır.',
+  'examples.balsamiq.feature1': 'Çizim benzeri, düşük kaliteli stil',
+  'examples.balsamiq.feature2': 'Sürükle ve bırak arayüzü',
+  'examples.balsamiq.feature3': 'Geniş önceden oluşturulmuş UI kontrolleri kütüphanesi',
+  'examples.balsamiq.feature4': 'Estetikten çok yapıya odaklanma',
+  
+  'examples.sketch.name': 'Sketch',
+  'examples.sketch.description': 'macOS için bir vektör grafik düzenleyicisi olup, öncelikle web siteleri ve mobil uygulamaların kullanıcı arayüzü ve kullanıcı deneyimi tasarımı için kullanılır. Sadeliği ve güçlü özellikleriyle tanınır.',
+  'examples.sketch.feature1': 'Güçlü vektör düzenleyici',
+  'examples.sketch.feature2': 'Yeniden kullanılabilir bileşenler için semboller',
+  'examples.sketch.feature3': 'Geniş eklenti ekosistemi',
+  'examples.sketch.feature4': 'Piksel mükemmelliğinde hassasiyet',
+
+  'examples.invision.name': 'InVision',
+  'examples.invision.description': 'Şirketlerin prototipler oluşturmasına, test etmesine ve üzerinde işbirliği yapmasına yardımcı olan kapsamlı bir dijital ürün tasarım platformudur. Tüm ürün tasarım iş akışını birbirine bağlar.',
+  'examples.invision.feature1': 'Yüksek kaliteli prototipleme',
+  'examples.invision.feature2': 'İşbirliği ve geri bildirim araçları',
+  'examples.invision.feature3': 'Geliştiriciler için tasarım devir teslimi',
+  'examples.invision.feature4': 'Dijital beyaz tahta',
+  
+  // Gemini Extension Page
+  'gemini_extension.title': 'Gemini Görüntü Stüdyosu',
+  'gemini_extension.description': "Gemini'nin gücünü ortaya çıkarın. Bir resim yükleyin ve yapmak istediğiniz düzenlemeleri açıklayın.",
+  'gemini_extension.upload_area.title': 'Resminizi Yükleyin',
+  'gemini_extension.upload_area.cta': 'Yüklemek için tıklayın veya sürükleyip bırakın',
+  'gemini_extension.prompt_placeholder': 'örneğin, Kediye bir doğum günü şapkası ekle',
+  'gemini_extension.generate_button': 'Resmi Düzenle',
+  'gemini_extension.loading': 'Gemini sihrini yapıyor...',
+  'gemini_extension.results.original': 'Orijinal',
+  'gemini_extension.results.edited': "Gemini tarafından düzenlendi",
+
+  // Settings Page
+  'settings.title': 'Ayarlar',
+  'settings.theme.title': 'Tema',
+  'settings.theme.description': 'Tarzınıza uygun bir renk paleti seçin.',
+  'settings.language.title': 'Dil',
+  'settings.language.description': 'Uygulama arayüzü için tercih ettiğiniz dili seçin.',
+  'settings.accessibility.title': 'Erişilebilirlik',
+  'settings.accessibility.description': 'Deneyiminizi iyileştirmek için ayarları yapın.',
+  'settings.accessibility.motion': 'Hareketi Azalt',
+  'settings.accessibility.contrast_mode': 'Yüksek Kontrast Modu',
+
+  // Guide Page
+  'guide.description': 'Tasarım becerilerinizi geliştirmek için adım adım öğreticiler, uzman tavsiyeleri ve kaynaklar.',
+  'guide.watch_talk': 'Konuşmayı izle',
+
+  'guide.getting_started.title': 'Başlarken',
+  'guide.getting_started.p1': "WireGen'e hoş geldiniz! Bu kılavuz, ilk prototipinizi oluşturmanın temelleri konusunda size yol gösterecektir.",
+  'guide.getting_started.h1': 'Adım 1: Komut Kutusu',
+  'guide.getting_started.p2': "WireGen'in kalbi, Ana Sayfadaki komut kutusudur. Oluşturmak istediğiniz kullanıcı arayüzünü burada tanımlarsınız. Açıklayıcı ama öz olun. Ekranda istediğiniz temel unsurları düşünün.",
+  'guide.getting_started.h2': 'Adım 2: Arayüzünüzü Tanımlayın',
+  'guide.getting_started.p3': 'Açık bir ifadeyle başlayın. Örneğin, "bir sayfa yap" yerine, "bir e-posta alanı, bir şifre alanı ve bir giriş düğmesi içeren bir giriş ekranı oluşturun" deneyin.',
+  'guide.getting_started.h3': 'Adım 3: Oluşturun ve Yineleyin',
+  'guide.getting_started.p4': "'Oluştur' düğmesine tıklayın. Yapay zeka komutunuzu yorumlayacak ve temel bir prototip oluşturacaktır. İlk denemede mükemmel olmazsa endişelenmeyin! Komutunuzu hassaslaştırıp tekrar oluşturabilir veya prototipi kendi tasarım süreciniz için bir başlangıç noktası olarak kullanabilirsiniz.",
+
+  'guide.prompt_crafting.title': 'Komut Hazırlama',
+  'guide.prompt_crafting.p1': 'Prototipinizin kalitesi büyük ölçüde komutunuzun kalitesine bağlıdır. İşte etkili komutlar yazmak için bazı ipuçları:',
+  'guide.prompt_crafting.l1_b': 'Bileşenler Konusunda Belirgin Olun: ',
+  'guide.prompt_crafting.l1_t': '"gezinme çubuğu", "arama girişi", "kullanıcı avatarı" veya "ürün kartı" gibi istediğiniz arayüz öğelerini adlandırın.',
+  'guide.prompt_crafting.l2_b': 'Düzenden Bahsedin: ',
+  'guide.prompt_crafting.l2_t': '"solda bir kenar çubuğu", "üstte bir başlık" veya "resimlerden oluşan bir ızgara" gibi ifadelerle düzeni yönlendirebilirsiniz.',
+  'guide.prompt_crafting.l3_b': 'Hiyerarşi İçinde Düşünün: ',
+  'guide.prompt_crafting.l3_t': 'En önemli unsurları önce tanımlayın. Kullanıcı hemen ne görmeli?',
+  'guide.prompt_crafting.l4_b': 'İyi bir komut örneği: ',
+  'guide.prompt_crafting.l4_t': '"Bir fitness takipçisi için mobil uygulama panosu. Üstte günlük adımları gösteren büyük bir kart, altında kalp atış hızı ve yakılan kaloriler için iki küçük kart ve ev, istatistikler ve profil için simgeler içeren bir alt gezinme çubuğu gerekiyor."',
+
+  'guide.design_principles.title': 'Tasarım İlkeleri',
+  'guide.design_principles.p1': 'Düşük kaliteli prototiplerde bile iyi tasarım ilkeleri önemlidir. Bunları aklınızda bulundurun:',
+  'guide.design_principles.h1': '1. Görsel Hiyerarşi',
+  'guide.design_principles.p2': 'En önemli unsurlar daha belirgin olmalıdır. Bunu boyut, yerleşim (örneğin, sayfanın üstü) veya daha fazla alan tanıyarak başarabilirsiniz.',
+  'guide.design_principles.h2': '2. Hizalama',
+  'guide.design_principles.p3': 'Öğeler rastgele yerleştirilmemelidir. Onları bir ızgaraya hizalayın. Bu, bir düzen duygusu yaratır ve arayüzün taranmasını kolaylaştırır.',
+  'guide.design_principles.h3': '3. Yakınlık',
+  'guide.design_principles.p4': 'İlgili öğeleri bir araya getirin. Örneğin, bir etiket giriş alanına yakın olmalıdır. Bu, kullanıcıların öğeler arasındaki ilişkiyi anlamasına yardımcı olur.',
+  'guide.design_principles.h4': '4. Beyaz Alan',
+  'guide.design_principles.p5': 'Her şeyi sıkıştırmayın. Öğelerin etrafında boş alan (beyaz alan) bırakmak dağınıklığı azaltır ve okunabilirliği artırır.',
+
+  'guide.inspirational_talks.title': 'İlham Veren Konuşmalar',
+  'guide.inspirational_talks.p1': 'Tasarım, yaratıcılık ve kullanıcı deneyimi hakkındaki görüşlerini paylaşan bu sektör liderlerinden ilham alın.',
+  'guide.inspirational_talks.t1_desc': 'Ünlü "Gündelik Şeylerin Tasarımı" kitabının yazarı, ürünleri keyifli kılan üç duygusal tasarım düzeyini açıklıyor.',
+  'guide.inspirational_talks.t2_desc': "Airbnb'nin kurucu ortağı, yabancılar arasında güven oluşturmak ve küresel bir topluluk yaratmak için tasarımın nasıl kullanıldığını paylaşıyor.",
+
+  'guide.books_and_trends.title': 'Kitaplar ve Trendler',
+  'guide.books_and_trends.h1': 'Temel Okumalar',
+  'guide.books_and_trends.book1.title': 'Gündelik Şeylerin Tasarımı',
+  'guide.books_and_trends.book1.author': 'Don Norman',
+  'guide.books_and_trends.book2.title': 'Beni Düşündürme',
+  'guide.books_and_trends.book2.author': 'Steve Krug',
+  'guide.books_and_trends.book3.title': 'Hooked: Alışkanlık Yaratan Ürünler Nasıl Geliştirilir',
+  'guide.books_and_trends.book3.author': 'Nir Eyal',
+  'guide.books_and_trends.book4.title': 'About Face: Etkileşim Tasarımının Temelleri',
+  'guide.books_and_trends.book4.author': 'Alan Cooper',
+  'guide.books_and_trends.h2': "UI/UX'te Sırada Ne Var",
+  'guide.books_and_trends.p1': "UI/UX alanı sürekli gelişmektedir. Bunun gibi yapay zeka destekli tasarım araçları, sesli arayüzlerin (VUI) ve artırılmış gerçekliğin (AR) yükselişi ve kullanıcı refahını önceliklendiren kapsayıcı, erişilebilir ve etik tasarım uygulamalarının artan önemi gibi trendleri takip edin.",
+
+  'guide.accessible_design.title': 'Erişilebilir Tasarım',
+  'guide.accessible_design.p1': 'Erişilebilirlik, engelli kişilerin de kullanabileceği şekilde ürünler tasarlamak anlamına gelir. Bu, kapsayıcı ve etik teknoloji yaratmak için çok önemlidir.',
+  'guide.accessible_design.p2': 'Önemli bir ilke, metnin az gören kişiler için okunabilir olmasını sağlayan yeterli renk kontrastını sağlamaktır. Yüksek Kontrast temamız, bu ilkenin uygulamadaki harika bir örneğidir.'
+};

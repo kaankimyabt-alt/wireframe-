@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Wireframe Prototyper</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'theme-bg': 'var(--theme-bg)',
+              'theme-bg-secondary': 'var(--theme-bg-secondary)',
+              'theme-text': 'var(--theme-text)',
+              'theme-text-secondary': 'var(--theme-text-secondary)',
+              'theme-accent': 'var(--theme-accent)',
+              'theme-accent-hover': 'var(--theme-accent-hover)',
+              'theme-border': 'var(--theme-border)',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      :root {
+        --theme-bg: #111827;
+        --theme-bg-secondary: #1f2937;
+        --theme-text: #e5e7eb;
+        --theme-text-secondary: #9ca3af;
+        --theme-accent: #4338ca;
+        --theme-accent-hover: #4f46e5;
+        --theme-border: #374151;
+      }
+      .theme-dark-purple {
+        --theme-bg: #1e1b4b;
+        --theme-bg-secondary: #312e81;
+        --theme-text: #e0e7ff;
+        --theme-text-secondary: #a5b4fc;
+        --theme-accent: #818cf8;
+        --theme-accent-hover: #a78bfa;
+        --theme-border: #4338ca;
+      }
+      .theme-forest-green {
+        --theme-bg: #064e3b;
+        --theme-bg-secondary: #047857;
+        --theme-text: #d1fae5;
+        --theme-text-secondary: #a7f3d0;
+        --theme-accent: #34d399;
+        --theme-accent-hover: #6ee7b7;
+        --theme-border: #059669;
+      }
+      .theme-dark-red {
+        --theme-bg: #450a0a;
+        --theme-bg-secondary: #7f1d1d;
+        --theme-text: #fee2e2;
+        --theme-text-secondary: #fca5a5;
+        --theme-accent: #f87171;
+        --theme-accent-hover: #fb7185;
+        --theme-border: #991b1b;
+      }
+      .theme-black {
+        --theme-bg: #000000;
+        --theme-bg-secondary: #171717;
+        --theme-text: #e5e5e5;
+        --theme-text-secondary: #a3a3a3;
+        --theme-accent: #737373;
+        --theme-accent-hover: #a3a3a3;
+        --theme-border: #404040;
+      }
+      .theme-light-pastel {
+        --theme-bg: #F5F7FA;
+        --theme-bg-secondary: #EBF1F5;
+        --theme-text: #4A5568;
+        --theme-text-secondary: #718096;
+        --theme-accent: #81A8D4;
+        --theme-accent-hover: #93B5E0;
+        --theme-border: #DDE4E8;
+      }
+      .theme-warm-pastel {
+        --theme-bg: #FFF9F2;
+        --theme-bg-secondary: #FFEAE0;
+        --theme-text: #5D4037;
+        --theme-text-secondary: #8D6E63;
+        --theme-accent: #FFAB91;
+        --theme-accent-hover: #FFC0AC;
+        --theme-border: #EFEBE9;
+      }
+      .theme-high-contrast {
+        --theme-bg: #000000;
+        --theme-bg-secondary: #1a1a1a;
+        --theme-text: #ffffff;
+        --theme-text-secondary: #f0f0f0;
+        --theme-accent: #ffff00;
+        --theme-accent-hover: #eeee00;
+        --theme-border: #888888;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "recharts": "https://aistudiocdn.com/recharts@^3.2.1",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.3",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.22.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

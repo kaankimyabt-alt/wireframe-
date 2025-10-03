@@ -1,0 +1,176 @@
+export const de = {
+  // General
+  'app.name': 'WireGen',
+  'app.copyright': '© 2024 WireGen AI',
+
+  // Nav Links
+  'nav.home': 'Startseite',
+  'nav.wireframe': 'Wireframe',
+  'nav.library': 'Komponenten',
+  'nav.suggestions': 'Vorschläge',
+  'nav.guide': 'Anleitung',
+  'nav.stats': 'Statistiken',
+  'nav.inspiration': 'Inspiration',
+  'nav.gemini_extension': 'Gemini-Erweiterung',
+  'nav.settings': 'Einstellungen',
+
+  // Home Page
+  'home.title1': 'Verwandeln Sie Ihre Ideen in',
+  'home.title2': 'UI-Prototypen, sofort.',
+  'home.description': 'Beschreiben Sie Ihren Bildschirm und lassen Sie die KI ein Low-Fidelity-Wireframe erstellen. Perfekt für schnelles Prototyping und die Visualisierung von Konzepten.',
+  'home.prompt_placeholder': 'z.B. Ein Dashboard für eine mobile App mit einem Diagramm und einem Feed für aktuelle Aktivitäten',
+  'home.generate_button': 'Erstellen',
+  'home.suggestions_title': 'Oder versuchen Sie einen dieser',
+  'suggestion.login': 'Ein Anmeldebildschirm für eine mobile Musik-App',
+  'suggestion.product': 'Eine Produktdetailseite für eine E-Commerce-Website',
+  'suggestion.dashboard': 'Ein Benutzerprofil-Dashboard mit einer Seitenleiste',
+  'suggestion.weather': 'Ein einfacher Hauptbildschirm für eine Wetter-App',
+  
+  // Wireframe Page
+  'wireframe.title': 'Generiertes Wireframe',
+  'wireframe.result_for': 'Ergebnis für',
+  'wireframe.last_prompt': 'Ihren letzten Prompt',
+  'wireframe.loading': 'Ihr Meisterwerk wird generiert...',
+  'wireframe.placeholder': 'Ihr generiertes Wireframe wird hier angezeigt.',
+  'wireframe.suggestions.title': 'Alternative Vorschläge',
+  'wireframe.suggestions.nav': 'Versuchen Sie eine Version mit einer unteren Navigationsleiste.',
+  'wireframe.suggestions.search': 'Fügen Sie eine Suchleiste in der Kopfzeile hinzu.',
+  'wireframe.suggestions.columns': 'Ordnen Sie in einem zweispaltigen Layout neu an.',
+  'wireframe.suggestions.theme': 'Mit einem anderen Farbthema generieren.',
+
+  // Error Messages
+  'error.parsing': 'Die KI hat Daten in einem unerwarteten Format zurückgegeben. Bitte versuchen Sie, Ihre Eingabe umzuformulieren oder es erneut zu versuchen.',
+  'error.api.generic': 'Es konnte keine Verbindung zum KI-Dienst hergestellt werden. Bitte überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.',
+  'error.api.unknown': 'Ein unbekannter Fehler ist aufgetreten. Bitte versuchen Sie es später erneut.',
+  'error.api.no_image': 'Die KI hat kein Bild zurückgegeben. Bitte versuchen Sie eine andere Eingabeaufforderung.',
+  'error.no_image_uploaded': 'Bitte laden Sie zuerst ein Bild hoch.',
+
+  // Library Page
+  'library.title': 'Komponentenbibliothek',
+  'library.description': 'Eine Sammlung von Standard-UI-Elementen, die Sie in Ihren Prompts anfordern können.',
+
+  // Suggestions Page
+  'suggestions.title': 'Vorschläge & Ideen',
+  'suggestions.based_on': 'Basierend auf Ihrem Prompt',
+  'suggestions.ideas_title': 'Zusätzliche Ideen',
+  'suggestions.idea.gamify.title': 'Gamify die Erfahrung',
+  'suggestions.idea.gamify.description': 'Fügen Sie ein Punktesystem oder Abzeichen für das Erledigen von Aufgaben hinzu, um das Engagement der Benutzer zu erhöhen.',
+  'suggestions.idea.social.title': 'Soziales Teilen',
+  'suggestions.idea.social.description': 'Ermöglichen Sie Benutzern, ihren Fortschritt oder ihre Ergebnisse auf Social-Media-Plattformen zu teilen.',
+  'suggestions.idea.analytics.title': 'Personalisierte Analysen',
+  'suggestions.idea.analytics.description': 'Stellen Sie Benutzern ein Dashboard zur Verfügung, um ihre persönliche Nutzung und ihren Fortschritt im Laufe der Zeit zu verfolgen.',
+  'suggestions.idea.customize.title': 'Anpassung hinzufügen',
+  'suggestions.idea.customize.description': 'Lassen Sie Benutzer das Thema, das Layout oder die Komponenten ändern, um sie besser an ihre Bedürfnisse anzupassen.',
+  'suggestions.examples_title': 'Ähnliche Anwendungsbeispiele',
+
+  // Example Detail Page
+  'example.back_button': 'Zurück zu den Vorschlägen',
+  'example.key_features': 'Hauptmerkmale',
+  
+  'examples.figma.name': 'Figma',
+  'examples.figma.description': 'Ein kollaboratives Interface-Design-Tool, das es Teams ermöglicht, an einem Ort zu entwerfen, Prototypen zu erstellen und Feedback zu sammeln. Es ist webbasiert und daher von jeder Plattform aus zugänglich.',
+  'examples.figma.feature1': 'Echtzeit-Zusammenarbeit',
+  'examples.figma.feature2': 'Vektorbearbeitungs- und Designwerkzeuge',
+  'examples.figma.feature3': 'Interaktives Prototyping',
+  'examples.figma.feature4': 'Komponentenbibliotheken zur Wiederverwendung',
+
+  'examples.balsamiq.name': 'Balsamiq',
+  'examples.balsamiq.description': 'Ein schnelles Low-Fidelity-Wireframing-Tool, das die Erfahrung des Skizzierens auf einem Whiteboard reproduziert, aber am Computer. Es konzentriert sich auf Geschwindigkeit und das schnelle Festhalten von Ideen.',
+  'examples.balsamiq.feature1': 'Skizzenartiger, Low-Fidelity-Stil',
+  'examples.balsamiq.feature2': 'Drag-and-Drop-Oberfläche',
+  'examples.balsamiq.feature3': 'Große Bibliothek vorgefertigter UI-Steuerelemente',
+  'examples.balsamiq.feature4': 'Fokus auf Struktur statt Ästhetik',
+  
+  'examples.sketch.name': 'Sketch',
+  'examples.sketch.description': 'Ein Vektorgrafik-Editor für macOS, der hauptsächlich für das User Interface und User Experience Design von Websites und mobilen Apps verwendet wird. Er ist bekannt für seine Einfachheit und leistungsstarken Funktionen.',
+  'examples.sketch.feature1': 'Leistungsstarker Vektor-Editor',
+  'examples.sketch.feature2': 'Symbole für wiederverwendbare Komponenten',
+  'examples.sketch.feature3': 'Umfangreiches Plugin-Ökosystem',
+  'examples.sketch.feature4': 'Pixelgenaue Präzision',
+
+  'examples.invision.name': 'InVision',
+  'examples.invision.description': 'Eine umfassende Plattform für digitales Produktdesign, die Unternehmen bei der Erstellung, dem Testen und der Zusammenarbeit an Prototypen unterstützt. Sie verbindet den gesamten Produktdesign-Workflow.',
+  'examples.invision.feature1': 'High-Fidelity-Prototyping',
+  'examples.invision.feature2': 'Tools für Zusammenarbeit und Feedback',
+  'examples.invision.feature3': 'Design-Handoffs für Entwickler',
+  'examples.invision.feature4': 'Digitales Whiteboarding',
+
+  // Gemini Extension Page
+  'gemini_extension.title': 'Gemini Bildstudio',
+  'gemini_extension.description': 'Entfesseln Sie die Kraft von Gemini. Laden Sie ein Bild hoch und beschreiben Sie die gewünschten Änderungen.',
+  'gemini_extension.upload_area.title': 'Laden Sie Ihr Bild hoch',
+  'gemini_extension.upload_area.cta': 'Klicken zum Hochladen oder per Drag & Drop ziehen',
+  'gemini_extension.prompt_placeholder': 'z.B. Füge der Katze einen Geburtstagshut hinzu',
+  'gemini_extension.generate_button': 'Bild bearbeiten',
+  'gemini_extension.loading': 'Gemini wirkt seine Magie...',
+  'gemini_extension.results.original': 'Original',
+  'gemini_extension.results.edited': 'Bearbeitet von Gemini',
+  
+  // Settings Page
+  'settings.title': 'Einstellungen',
+  'settings.theme.title': 'Thema',
+  'settings.theme.description': 'Wählen Sie eine Farbpalette, die zu Ihrem Stil passt.',
+  'settings.language.title': 'Sprache',
+  'settings.language.description': 'Wählen Sie Ihre bevorzugte Sprache für die Anwendungsoberfläche.',
+  'settings.accessibility.title': 'Barrierefreiheit',
+  'settings.accessibility.description': 'Passen Sie die Einstellungen an, um Ihre Erfahrung zu verbessern.',
+  'settings.accessibility.motion': 'Bewegung reduzieren',
+  'settings.accessibility.contrast_mode': 'Modus mit hohem Kontrast',
+
+  // Guide Page
+  'guide.description': 'Schritt-für-Schritt-Anleitungen, Expertenratschläge und Ressourcen zur Verbesserung Ihrer Designfähigkeiten.',
+  'guide.watch_talk': 'Vortrag ansehen',
+
+  'guide.getting_started.title': 'Erste Schritte',
+  'guide.getting_started.p1': 'Willkommen bei WireGen! Diese Anleitung führt Sie durch die Grundlagen zur Erstellung Ihres ersten Wireframes.',
+  'guide.getting_started.h1': 'Schritt 1: Das Eingabefeld',
+  'guide.getting_started.p2': 'Das Herzstück von WireGen ist das Eingabefeld auf der Startseite. Hier beschreiben Sie die Benutzeroberfläche, die Sie erstellen möchten. Seien Sie beschreibend, aber prägnant. Denken Sie über die Schlüsselelemente nach, die Sie auf dem Bildschirm haben möchten.',
+  'guide.getting_started.h2': 'Schritt 2: Beschreiben Sie Ihre Benutzeroberfläche',
+  'guide.getting_started.p3': 'Beginnen Sie mit einer klaren Aussage. Versuchen Sie zum Beispiel anstelle von "eine Seite erstellen", "Erstellen Sie einen Anmeldebildschirm mit einem E-Mail-Feld, einem Passwortfeld und einer Anmeldeschaltfläche".',
+  'guide.getting_started.h3': 'Schritt 3: Generieren und Iterieren',
+  'guide.getting_started.p4': "Klicken Sie auf die Schaltfläche 'Generieren'. Die KI interpretiert Ihre Eingabe und erstellt ein grundlegendes Wireframe. Machen Sie sich keine Sorgen, wenn es beim ersten Versuch nicht perfekt ist! Sie können Ihre Eingabe verfeinern und erneut generieren oder das Wireframe als Ausgangspunkt für Ihren eigenen Designprozess verwenden.",
+
+  'guide.prompt_crafting.title': 'Prompts erstellen',
+  'guide.prompt_crafting.p1': 'Die Qualität Ihres Wireframes hängt stark von der Qualität Ihres Prompts ab. Hier sind einige Tipps zum Schreiben effektiver Prompts:',
+  'guide.prompt_crafting.l1_b': 'Seien Sie spezifisch bei Komponenten: ',
+  'guide.prompt_crafting.l1_t': 'Nennen Sie die gewünschten UI-Elemente wie "Navigationsleiste", "Sucheingabe", "Benutzer-Avatar" oder "Produktkarte".',
+  'guide.prompt_crafting.l2_b': 'Erwähnen Sie das Layout: ',
+  'guide.prompt_crafting.l2_t': 'Sie können das Layout steuern, indem Sie Dinge sagen wie "eine Seitenleiste links", "eine Kopfzeile oben" oder "ein Raster von Bildern".',
+  'guide.prompt_crafting.l3_b': 'Denken Sie in Hierarchien: ',
+  'guide.prompt_crafting.l3_t': 'Beschreiben Sie die wichtigsten Elemente zuerst. Was sollte der Benutzer sofort sehen?',
+  'guide.prompt_crafting.l4_b': 'Beispiel für einen guten Prompt: ',
+  'guide.prompt_crafting.l4_t': '"Ein Dashboard für eine mobile Fitness-Tracker-App. Es benötigt eine große Karte oben, die die täglichen Schritte anzeigt, zwei kleinere Karten darunter für Herzfrequenz und verbrannte Kalorien sowie eine untere Navigationsleiste mit Symbolen für Start, Statistiken und Profil."',
+
+  'guide.design_principles.title': 'Designprinzipien',
+  'guide.design_principles.p1': 'Auch bei Low-Fidelity-Wireframes sind gute Designprinzipien wichtig. Beachten Sie Folgendes:',
+  'guide.design_principles.h1': '1. Visuelle Hierarchie',
+  'guide.design_principles.p2': 'Die wichtigsten Elemente sollten stärker hervortreten. Dies können Sie durch Größe, Platzierung (z.B. oben auf der Seite) oder durch mehr Platz erreichen.',
+  'guide.design_principles.h2': '2. Ausrichtung',
+  'guide.design_principles.p3': 'Elemente sollten nicht zufällig platziert werden. Richten Sie sie an einem Raster aus. Dies schafft ein Gefühl von Ordnung und erleichtert das Scannen der Benutzeroberfläche.',
+  'guide.design_principles.h3': '3. Nähe',
+  'guide.design_principles.p4': 'Gruppieren Sie zusammengehörige Elemente. Zum Beispiel sollte ein Label in der Nähe seines Eingabefeldes sein. Dies hilft den Benutzern, die Beziehung zwischen den Elementen zu verstehen.',
+  'guide.design_principles.h4': '4. Leerraum',
+  'guide.design_principles.p5': 'Stopfen Sie nicht alles zusammen. Leerraum um Elemente herum (Weißraum) reduziert die Unordnung und verbessert die Lesbarkeit.',
+
+  'guide.inspirational_talks.title': 'Inspirierende Vorträge',
+  'guide.inspirational_talks.p1': 'Lassen Sie sich von diesen Branchenführern inspirieren, die ihre Einblicke in Design, Kreativität und Benutzererfahrung teilen.',
+  'guide.inspirational_talks.t1_desc': 'Der renommierte Autor von "The Design of Everyday Things" erklärt die drei Ebenen des emotionalen Designs, die Produkte angenehm machen.',
+  'guide.inspirational_talks.t2_desc': 'Der Mitbegründer von Airbnb teilt mit, wie Design genutzt wurde, um Vertrauen zwischen Fremden aufzubauen und eine globale Gemeinschaft zu schaffen.',
+
+  'guide.books_and_trends.title': 'Bücher & Trends',
+  'guide.books_and_trends.h1': 'Wesentliche Lektüre',
+  'guide.books_and_trends.book1.title': 'The Design of Everyday Things',
+  'guide.books_and_trends.book1.author': 'Don Norman',
+  'guide.books_and_trends.book2.title': "Don't Make Me Think",
+  'guide.books_and_trends.book2.author': 'Steve Krug',
+  'guide.books_and_trends.book3.title': 'Hooked: How to Build Habit-Forming Products',
+  'guide.books_and_trends.book3.author': 'Nir Eyal',
+  'guide.books_and_trends.book4.title': 'About Face: The Essentials of Interaction Design',
+  'guide.books_and_trends.book4.author': 'Alan Cooper',
+  'guide.books_and_trends.h2': 'Was kommt als Nächstes in UI/UX',
+  'guide.books_and_trends.p1': 'Der Bereich UI/UX entwickelt sich ständig weiter. Behalten Sie Trends wie KI-gestützte Design-Tools (wie dieses!), den Aufstieg von Sprachschnittstellen (VUI) und Augmented Reality (AR) sowie die wachsende Bedeutung von inklusiven, barrierefreien und ethischen Designpraktiken, die das Wohlbefinden der Benutzer in den Vordergrund stellen, im Auge.',
+
+  'guide.accessible_design.title': 'Barrierefreies Design',
+  'guide.accessible_design.p1': 'Barrierefreiheit bedeutet, Produkte so zu gestalten, dass sie auch von Menschen mit Behinderungen genutzt werden können. Dies ist entscheidend für die Schaffung inklusiver und ethischer Technologie.',
+  'guide.accessible_design.p2': 'Ein Schlüsselprinzip ist die Gewährleistung eines ausreichenden Farbkontrasts, der Text für Menschen mit Sehschwäche lesbar macht. Unser Hochkontrast-Thema ist ein hervorragendes Beispiel für dieses Prinzip in Aktion.'
+};

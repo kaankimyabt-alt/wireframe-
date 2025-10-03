@@ -1,0 +1,176 @@
+export const en = {
+  // General
+  'app.name': 'WireGen',
+  'app.copyright': '© 2024 WireGen AI',
+
+  // Nav Links
+  'nav.home': 'Home',
+  'nav.wireframe': 'Wireframe',
+  'nav.library': 'Components',
+  'nav.suggestions': 'Suggestions',
+  'nav.guide': 'Guide',
+  'nav.stats': 'Statistics',
+  'nav.inspiration': 'Inspiration',
+  'nav.gemini_extension': 'Gemini Extension',
+  'nav.settings': 'Settings',
+
+  // Home Page
+  'home.title1': 'Turn Your Ideas into',
+  'home.title2': 'UI Prototypes, Instantly.',
+  'home.description': 'Describe your screen, and let AI generate a low-fidelity wireframe. Perfect for rapid prototyping and visualizing concepts.',
+  'home.prompt_placeholder': 'e.g., A mobile app dashboard with a chart and recent activity feed',
+  'home.generate_button': 'Generate',
+  'home.suggestions_title': 'Or try one of these',
+  'suggestion.login': 'A login screen for a mobile music app',
+  'suggestion.product': 'A product details page for an e-commerce website',
+  'suggestion.dashboard': 'A user profile dashboard with a sidebar',
+  'suggestion.weather': 'A simple weather app main screen',
+  
+  // Wireframe Page
+  'wireframe.title': 'Generated Wireframe',
+  'wireframe.result_for': 'Result for',
+  'wireframe.last_prompt': 'your last prompt',
+  'wireframe.loading': 'Generating your masterpiece...',
+  'wireframe.placeholder': 'Your generated wireframe will appear here.',
+  'wireframe.suggestions.title': 'Alternative Suggestions',
+  'wireframe.suggestions.nav': 'Try a version with a bottom navigation bar.',
+  'wireframe.suggestions.search': 'Add a search bar to the header.',
+  'wireframe.suggestions.columns': 'Re-arrange in a two-column layout.',
+  'wireframe.suggestions.theme': 'Generate with a different color theme.',
+
+  // Error Messages
+  'error.parsing': 'The AI returned data in an unexpected format. Please try rephrasing your prompt or try again.',
+  'error.api.generic': 'Could not connect to the AI service. Please check your connection and try again.',
+  'error.api.unknown': 'An unknown error occurred. Please try again later.',
+  'error.api.no_image': 'The AI did not return an image. Please try a different prompt.',
+  'error.no_image_uploaded': 'Please upload an image first.',
+
+  // Library Page
+  'library.title': 'Component Library',
+  'library.description': 'A collection of standard UI elements you can request in your prompts.',
+  
+  // Suggestions Page
+  'suggestions.title': 'Suggestions & Ideas',
+  'suggestions.based_on': 'Based on your prompt',
+  'suggestions.ideas_title': 'Additional Ideas',
+  'suggestions.idea.gamify.title': 'Gamify the experience',
+  'suggestions.idea.gamify.description': 'Add a points system or badges for completing tasks to increase user engagement.',
+  'suggestions.idea.social.title': 'Social Sharing',
+  'suggestions.idea.social.description': 'Allow users to share their progress or results on social media platforms.',
+  'suggestions.idea.analytics.title': 'Personalized Analytics',
+  'suggestions.idea.analytics.description': 'Provide users with a dashboard to track their personal usage and progress over time.',
+  'suggestions.idea.customize.title': 'Add Customization',
+  'suggestions.idea.customize.description': 'Let users change the theme, layout, or components to better suit their needs.',
+  'suggestions.examples_title': 'Similar Application Examples',
+
+  // Example Detail Page
+  'example.back_button': 'Back to Suggestions',
+  'example.key_features': 'Key Features',
+  
+  'examples.figma.name': 'Figma',
+  'examples.figma.description': 'A collaborative interface design tool that allows teams to design, prototype, and gather feedback all in one place. It is web-based, making it accessible from any platform.',
+  'examples.figma.feature1': 'Real-time collaboration',
+  'examples.figma.feature2': 'Vector editing and design tools',
+  'examples.figma.feature3': 'Interactive prototyping',
+  'examples.figma.feature4': 'Component libraries for reuse',
+
+  'examples.balsamiq.name': 'Balsamiq',
+  'examples.balsamiq.description': 'A rapid, low-fidelity wireframing tool that reproduces the experience of sketching on a whiteboard, but using a computer. It focuses on speed and getting ideas down quickly.',
+  'examples.balsamiq.feature1': 'Sketch-like, low-fidelity style',
+  'examples.balsamiq.feature2': 'Drag-and-drop interface',
+  'examples.balsamiq.feature3': 'Large library of pre-built UI controls',
+  'examples.balsamiq.feature4': 'Focus on structure over aesthetics',
+  
+  'examples.sketch.name': 'Sketch',
+  'examples.sketch.description': 'A vector graphics editor for macOS, primarily used for user interface and user experience design of websites and mobile apps. It is known for its simplicity and powerful features.',
+  'examples.sketch.feature1': 'Powerful vector editor',
+  'examples.sketch.feature2': 'Symbols for reusable components',
+  'examples.sketch.feature3': 'Extensive plugin ecosystem',
+  'examples.sketch.feature4': 'Pixel-perfect precision',
+
+  'examples.invision.name': 'InVision',
+  'examples.invision.description': 'A comprehensive digital product design platform that helps companies create, test, and collaborate on prototypes. It connects the entire product design workflow.',
+  'examples.invision.feature1': 'High-fidelity prototyping',
+  'examples.invision.feature2': 'Collaboration and feedback tools',
+  'examples.invision.feature3': 'Design handoffs for developers',
+  'examples.invision.feature4': 'Digital whiteboarding',
+
+  // Gemini Extension Page
+  'gemini_extension.title': 'Gemini Image Studio',
+  'gemini_extension.description': 'Unleash Gemini\'s power. Upload an image and describe the edits you want to make.',
+  'gemini_extension.upload_area.title': 'Upload Your Image',
+  'gemini_extension.upload_area.cta': 'Click to upload or drag and drop',
+  'gemini_extension.prompt_placeholder': 'e.g., Add a birthday hat on the cat',
+  'gemini_extension.generate_button': 'Edit Image',
+  'gemini_extension.loading': 'Gemini is working its magic...',
+  'gemini_extension.results.original': 'Original',
+  'gemini_extension.results.edited': 'Edited by Gemini',
+
+  // Settings Page
+  'settings.title': 'Settings',
+  'settings.theme.title': 'Theme',
+  'settings.theme.description': 'Choose a color palette that suits your style.',
+  'settings.language.title': 'Language',
+  'settings.language.description': 'Select your preferred language for the application interface.',
+  'settings.accessibility.title': 'Accessibility',
+  'settings.accessibility.description': 'Adjust settings to improve your experience.',
+  'settings.accessibility.motion': 'Reduce Motion',
+  'settings.accessibility.contrast_mode': 'High Contrast Mode',
+
+  // Guide Page
+  'guide.description': 'Step-by-step tutorials, expert advice, and resources to elevate your design skills.',
+  'guide.watch_talk': 'Watch the talk',
+
+  'guide.getting_started.title': 'Getting Started',
+  'guide.getting_started.p1': 'Welcome to WireGen! This guide will walk you through the basics of creating your first wireframe.',
+  'guide.getting_started.h1': 'Step 1: The Prompt Box',
+  'guide.getting_started.p2': 'The heart of WireGen is the prompt box on the Home page. This is where you describe the user interface you want to create. Be descriptive but concise. Think about the key elements you want on the screen.',
+  'guide.getting_started.h2': 'Step 2: Describe Your UI',
+  'guide.getting_started.p3': 'Start with a clear statement. For example, instead of "make a page," try "Create a login screen with an email field, a password field, and a login button."',
+  'guide.getting_started.h3': 'Step 3: Generate and Iterate',
+  'guide.getting_started.p4': "Click the 'Generate' button. The AI will interpret your prompt and create a basic wireframe. Don't worry if it's not perfect on the first try! You can refine your prompt and generate again, or use the wireframe as a starting point for your own design process.",
+
+  'guide.prompt_crafting.title': 'Crafting Prompts',
+  'guide.prompt_crafting.p1': 'The quality of your wireframe depends heavily on the quality of your prompt. Here are some tips for writing effective prompts:',
+  'guide.prompt_crafting.l1_b': 'Be Specific About Components: ',
+  'guide.prompt_crafting.l1_t': 'Name the UI elements you want, like "navigation bar," "search input," "user avatar," or "product card."',
+  'guide.prompt_crafting.l2_b': 'Mention Layout: ',
+  'guide.prompt_crafting.l2_t': 'You can guide the layout by saying things like "a sidebar on the left," "a header at the top," or "a grid of images."',
+  'guide.prompt_crafting.l3_b': 'Think in Hierarchy: ',
+  'guide.prompt_crafting.l3_t': 'Describe the most important elements first. What should the user see immediately?',
+  'guide.prompt_crafting.l4_b': 'Example of a good prompt: ',
+  'guide.prompt_crafting.l4_t': '"A mobile app dashboard for a fitness tracker. It needs a large card at the top showing daily steps, two smaller cards below for heart rate and calories burned, and a bottom navigation bar with icons for home, stats, and profile."',
+
+  'guide.design_principles.title': 'Design Principles',
+  'guide.design_principles.p1': 'Even in low-fidelity wireframes, good design principles matter. Keep these in mind:',
+  'guide.design_principles.h1': '1. Visual Hierarchy',
+  'guide.design_principles.p2': 'The most important elements should be more prominent. You can achieve this through size, placement (e.g., top of the page), or by giving it more space.',
+  'guide.design_principles.h2': '2. Alignment',
+  'guide.design_principles.p3': "Elements shouldn't be placed randomly. Align them to a grid. This creates a sense of order and makes the interface easier to scan.",
+  'guide.design_principles.h3': '3. Proximity',
+  'guide.design_principles.p4': 'Group related items together. For example, a label should be close to its input field. This helps users understand the relationship between elements.',
+  'guide.design_principles.h4': '4. White Space',
+  'guide.design_principles.p5': "Don't cram everything together. Leaving empty space around elements (white space) reduces clutter and improves readability.",
+
+  'guide.inspirational_talks.title': 'Inspirational Talks',
+  'guide.inspirational_talks.p1': 'Get inspired by these industry leaders who share their insights on design, creativity, and user experience.',
+  'guide.inspirational_talks.t1_desc': 'The renowned author of "The Design of Everyday Things" explains the three levels of emotional design that make products enjoyable.',
+  'guide.inspirational_talks.t2_desc': "The co-founder of Airbnb shares how design was used to build trust between strangers and create a global community.",
+
+  'guide.books_and_trends.title': 'Books & Trends',
+  'guide.books_and_trends.h1': 'Essential Reading',
+  'guide.books_and_trends.book1.title': 'The Design of Everyday Things',
+  'guide.books_and_trends.book1.author': 'Don Norman',
+  'guide.books_and_trends.book2.title': "Don't Make Me Think",
+  'guide.books_and_trends.book2.author': 'Steve Krug',
+  'guide.books_and_trends.book3.title': 'Hooked: How to Build Habit-Forming Products',
+  'guide.books_and_trends.book3.author': 'Nir Eyal',
+  'guide.books_and_trends.book4.title': 'About Face: The Essentials of Interaction Design',
+  'guide.books_and_trends.book4.author': 'Alan Cooper',
+  'guide.books_and_trends.h2': "What's Next in UI/UX",
+  'guide.books_and_trends.p1': 'The field of UI/UX is always evolving. Keep an eye on trends like AI-powered design tools (like this one!), the rise of voice interfaces (VUI) and augmented reality (AR), and the growing importance of inclusive, accessible, and ethical design practices that prioritize user well-being.',
+
+  'guide.accessible_design.title': 'Accessible Design',
+  'guide.accessible_design.p1': 'Accessibility means designing products so that people with disabilities can use them. This is crucial for creating inclusive and ethical technology.',
+  'guide.accessible_design.p2': 'A key principle is ensuring sufficient color contrast, which makes text readable for people with low vision. Our High Contrast theme is a great example of this principle in action.'
+};
